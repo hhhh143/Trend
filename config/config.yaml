@@ -119,15 +119,7 @@ rss:
       name: "Hacker News"
       url: "https://hnrss.org/frontpage"
 
-      - id: "a"
-      name: "自然灾害"
-      url: "https://www.bing.com/news/search?q=自然灾害&format=RSS"
-      max_age_days: 100
-
-      - id: "b"
-      name: "全球新闻"
-      url: "https://www.bing.com/news/search?q=全球新闻format=RSS"
-      max_age_days: 100
+      
 
     - id: "ruanyifeng"
       name: "阮一峰的网络日志"
