@@ -108,7 +108,7 @@ rss:
   freshness_filter:
     enabled: true                    # 是否启用新鲜度过滤（默认启用）
 
-    max_age_days: 3                   # 最大文章年龄（天）
+    max_age_days: 10                  # 最大文章年龄（天）
                                       # - 正整数：只推送 N 天内的文章
                                       # - 0：禁用过滤，推送所有文章
 
@@ -124,12 +124,18 @@ rss:
     - id: "a"
       name: "自然灾害"
       url: "https://www.bing.com/news/search?q=自然灾害&format=RSS"
-      max_age_days: 3
 
     - id: "b"
       name: "全球新闻"
       url: "https://www.bing.com/news/search?q=全球新闻format=RSS"
-      max_age_days: 3  
+
+    - id: "c"
+      name: "全球灾害警报"
+      url: "https://www.gdacs.org/xml/rss.xml"
+
+    - id: "d"
+      name: "新闻"
+      url: "https://www.fema.gov/about/news-multimedia/feeds"
 
     - id: "ruanyifeng"
       name: "阮一峰的网络日志"
