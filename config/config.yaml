@@ -108,7 +108,7 @@ rss:
   freshness_filter:
     enabled: true                    # 是否启用新鲜度过滤（默认启用）
 
-    max_age_days: 10                  # 最大文章年龄（天）
+    max_age_days: 100                  # 最大文章年龄（天）
                                       # - 正整数：只推送 N 天内的文章
                                       # - 0：禁用过滤，推送所有文章
 
@@ -136,6 +136,10 @@ rss:
     - id: "d"
       name: "新闻"
       url: "https://www.fema.gov/about/news-multimedia/feeds"
+
+    - id: "e"
+      name: "香港"
+      url: "https://rss.weather.gov.hk/"
 
     - id: "ruanyifeng"
       name: "阮一峰的网络日志"
