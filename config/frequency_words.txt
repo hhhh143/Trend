@@ -149,6 +149,9 @@
 
 [WORD_GROUPS]
 
+# AI 应用于防灾的设备
+/无人机|四足机器人|机器人/ => 机器人设备
+
 # AI 模型和平台
 /ChatGPT|Sora|DALL-E|OpenAI/ => OpenAI
 /\bAnthropic\b|Claude/ => Anthropic
@@ -180,8 +183,7 @@
 救灾
 应急响应
 
-# AI 应用于防灾的设备
-/无人机|四足机器人|机器人/ => 机器人设备
+
 
 # 必须包含防灾相关词（确保抓取内容与防灾相关）
 +防灾
